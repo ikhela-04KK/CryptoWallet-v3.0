@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'dart:convert';
 import 'dart:math';
 
@@ -233,6 +235,6 @@ class _StaticPageState extends State<StaticPage> {
         break;
     }
 
-    return Padding(child: text, padding: const EdgeInsets.only(top: 10.0));
+    return Padding(padding: const EdgeInsets.only(top: 10.0), child: text);
   }
 }
