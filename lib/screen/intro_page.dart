@@ -1,3 +1,5 @@
+// ignore_for_file: body_might_complete_normally_nullable
+
 import 'package:animate_do/animate_do.dart';
 import 'package:crypto_wallet_app/screen/home_page.dart';
 import 'package:flutter/material.dart';
